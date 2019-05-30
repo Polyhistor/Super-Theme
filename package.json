@@ -1,0 +1,27 @@
+{
+  "name": "polyhistor",
+  "version": "1.0.0",
+  "description": "creating advanced css theme",
+  "main": "index.js",
+  "scripts": {
+    "sassCompile": "node-sass sass/main.scss css/style.css -w                                                                                                                                                                                                         "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Polyhistor/Super-Theme.git"
+  },
+  "keywords": [
+    "css",
+    "javascript",
+    "html"
+  ],
+  "author": "Pouya Ataei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Polyhistor/Super-Theme/issues"
+  },
+  "homepage": "https://github.com/Polyhistor/Super-Theme#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
