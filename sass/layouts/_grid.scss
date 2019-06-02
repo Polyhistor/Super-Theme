@@ -1,6 +1,5 @@
 .row {
   max-width: $grid-width;
-  background-color: #eee;
   // center a block element inside another block elemenet
   margin: 0 auto;
   // everything except the last child
@@ -13,7 +12,6 @@
 
   // using the magic of regex, this is an attribute selector
   [class^="col-"] {
-    background: orangered;
     float: left;
 
     &:not(:last-child) {
