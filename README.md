@@ -1,3 +1,5 @@
-# Super-Theme
+(https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)
 
-Here, we are creating one of those world-class fancy designs using most modern CSS3, HTML5 techniques. Bear in mind, there is no JS in here! we are running on Sass, and this is as good as bootstrap! I'm serious..
+<h1 align="center">
+What is better than an advanced CSS and a minimal and creative UI? 
+</h1>
