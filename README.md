@@ -1,4 +1,4 @@
-(https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)
+![Awesome Sass](https://raw.githubusercontent.com/Famolus/awesome-sass/master/awesome-sass-logo-github.png)
 
 <h1 align="center">
 What is better than an advanced CSS and a minimal and creative UI? 
