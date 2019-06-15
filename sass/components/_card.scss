@@ -159,10 +159,10 @@
   // CTA front side styling
   &__cta {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 90%;
+    top: 0%;
+    left: 0%;
+    transform: translate(0%, 0%);
+    width: 100%;
     text-align: center;
   }
 
@@ -179,5 +179,47 @@
   &__price-value {
     font-size: 6rem;
     font-weight: 100;
+  }
+
+  @include respond(tab-port) {
+    height: auto;
+    border-radius: 3px;
+    background-color: white;
+
+    &__side {
+      height: auto;
+      transition: all 0.8s ease;
+      position: relative;
+
+      &--back {
+        transform: translateY(-15%);
+        clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+      }
+    }
+
+    &:hover &__side--front {
+      transform: rotateY(0deg);
+    }
+
+    &__cta {
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      padding: 7rem 4rem 4rem 4rem;
+    }
+
+    &__details {
+      padding: 5rem 3rem;
+    }
+
+    &__price-box {
+      margin-bottom: 3rem;
+    }
+
+    &__price-value {
+      font-size: 6rem;
+    }
   }
 }
