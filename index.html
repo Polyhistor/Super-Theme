@@ -47,7 +47,6 @@
           <span class="heading-primary--main">Outdoors</span>
           <span class="heading-primary--sub">is where life happens</span>
         </h1>
-
         <a href="#section-tours" class="btn btn--white btn-animated">Discover our tours</a>
       </div>
     </header>
@@ -88,7 +87,30 @@
             <!-- Isn't ememt magical?  -->
             <!-- .composition>(img.composition__photo.composition__photo--p1)*3 -->
             <div class="composition">
-              <img
+
+              <img srcset="img/nat-1.jpg 300w, img/nat-1-large.jpg 1000w" 
+                sizes="(max-width:900) 20vw, (max-width:600px) 30vw, 300px"
+                alt="Photo 1"
+                class="composition__photo composition__photo--p1"
+                src="img/nat-1-large.jpg"
+              >
+
+              
+              <img srcset="img/nat-2.jpg 300w, img/nat-2-large.jpg 1000w" 
+                sizes="(max-width:900) 20vw, (max-width:600px) 30vw, 300px"
+                alt="Photo 2"
+                class="composition__photo composition__photo--p2"
+                src="img/nat-2-large.jpg"
+              >
+
+              
+              <img srcset="img/nat-3.jpg 300w, img/nat-3-large.jpg 1000w" 
+                sizes="(max-width:900) 20vw, (max-width:600px) 30vw, 300px"
+                alt="Photo 3"
+                class="composition__photo composition__photo--p3"
+                src="img/nat-3-large.jpg"
+              >
+              <!-- <img
                 src="img/nat-1-large.jpg"
                 alt="Photo 1"
                 class="composition__photo composition__photo--p1"
@@ -102,7 +124,7 @@
                 src="img/nat-3-large.jpg"
                 alt="Photo 3"
                 class="composition__photo composition__photo--p3"
-              />
+              /> -->
             </div>
           </div>
         </div>
@@ -431,7 +453,12 @@
 
     <footer class="footer">
       <div class="footer__logo-box">
-        <img src="img/logo-green-2x.png" alt="Full Logo" class="footer__logo" />
+        <!-- // media queries with picture tag -->
+        <picutre class="footer__logo">
+          <source srcset="img/logo-green-1x, img/logo-green-2x" media="(max-width: 37.5em)">
+            <img src="img/logo-green-2x.png 2x" alt="full logo">
+        </picutre>
+        <img srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x" alt="Full Logo" class="footer__logo" src="img/logo-green-1x.png 2x"/>
       </div>
       <div class="row">
         <div class="col-1-of-2">
