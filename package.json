@@ -4,7 +4,9 @@
   "description": "creating advanced css theme",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass --watch sass/main.scss css/style.css                                                                                                                                                                                                         "
+    "watch:sass": "node-sass  sass/main.scss css/style.css",
+    "compile:sass": "node-sass  sass/main.scss css/style.comp.css",
+    "concat:css": "concat -o css/concat.css css/icon-font.css css/style.comp.css                                                                                                                                                                   "
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,8 @@
   },
   "homepage": "https://github.com/Polyhistor/Super-Theme#readme",
   "devDependencies": {
-    "node-sass": "^4.12.0"
+    "autoprefixer": "^9.6.0",
+    "node-sass": "^4.12.0",
+    "postcss-cli": "^6.1.2"
   }
 }
